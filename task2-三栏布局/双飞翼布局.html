@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>双飞翼布局</title>
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+.container {
+    background-color: #ccc;
+    overflow: hidden;
+    padding: 20px 240px 20px 220px;
+}
+
+.left, .center, .right {
+    float: left;
+}
+
+.left, .right {
+    position: relative;
+    min-height: 300px;
+}
+
+.left {
+    width: 200px;
+    background-color: red;
+    margin-left: -100%;
+    left: -200px;
+}
+
+.center {
+    width: 100%;
+}
+
+.right {
+    width: 220px;
+    margin-left: -220px;
+    right: -220px;
+    background-color: blue;
+}
+
+.content {
+    margin: 0 20px;
+    background-color: green;
+    min-height: 300px;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="center">
+            <div class="content">center</div>
+        </div>
+        <div class="left">left</div>
+        <div class="right">right</div>
+    </div>
+</body>
+</html>
