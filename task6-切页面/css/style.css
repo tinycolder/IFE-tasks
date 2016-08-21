@@ -106,7 +106,8 @@ html {
     line-height: 146px;
     color: #75b86b;
     font-family: '微软雅黑';
-    margin: 0;
+    font-style: italic;
+    margin-left: -10px;
 }
 
 .tri2, .css {
@@ -175,7 +176,7 @@ html {
 
     font-size: 12px;
     line-height: 16px;
-    font-family: "宋体";
+    font-family: "微软雅黑";
 }
 
 .article h3 {
@@ -318,8 +319,7 @@ html {
 .con {
     font-size: 16px;
     line-height: 20px;
-    margin: 20px 0 20px 35px;
-
+    margin: 20px 0 20px 30px;
 }
 
 .preffix {
@@ -329,6 +329,7 @@ html {
 
     border: 8px solid transparent;
     border-bottom-color: #5a5b5b;
+    margin-right: 5px;
 
     float: left;
 }
@@ -360,6 +361,7 @@ html {
     font-size: 86px;
     line-height: 86px;
     border-right: 2px solid #fff;
+    padding-right: 5px;
 
     float: left;
 }
@@ -385,25 +387,32 @@ html {
     font-style: italic;
     color: #5a5b5b;
     margin-left: 280px;
+
+    position: relative;
 }
 
-.en span {
-    display: inline-block;
-    width: 50px;
-    height: 16px;
+.en-quote {
     font-size: 72px;
+    line-height: 1.0;
     font-style: normal;
     color: #d45d5c;
 
-    position: relative;
-    left: -37px;
-    top: 35px;
+    position: absolute;
 }
 
-.en span:last-child {
-    vertical-align: top;
-    left: 87px;
-    top: 30px;
+.en-quote:first-child {
+    top: 0;
+    left: -40px;
+}
+
+.en-quote:last-child {
+    bottom: -58px;
+    right: -25px;
+}
+
+.en-hello {
+    padding-top: 12.5px;
+    text-indent: 40px;
 }
 
 .footer {
