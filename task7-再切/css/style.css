@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*包裹曾*/
+#wrap {
+    width: 100%;
+    min-width: 1280px;
+    overflow: hidden;
+}
+
+/*header start*/
+#header {
+    height: 55px;
+}
+
+.logo {
+    font-size: 21px;
+    font-weight: bold;
+
+    margin-left: 60px;
+    float: left;
+}
+
+.logo img, .logo span {
+    line-height: 55px;
+    vertical-align: middle;
+}
+
+.logo span {
+    padding-left: 10px;
+}
+
+.nav {
+    height: 100%;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    margin-right: 68px;
+
+    float: right;
+}
+
+.nav li {
+    display: inline-block;
+    list-style: none;
+    line-height: 55px;
+    margin-top: -5px;
+    padding: 0 10px;
+}
+
+.nav li.nav-li:hover {
+    border-bottom: 5px solid red;
+}
+
+.nav li + li {
+    margin-left: 28px;
+}
+
+.nav li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.log-in {
+    display: table;
+}
+
+.log-in img {
+    margin-top: 15px;
+    margin-right: 5px;
+}
+/*header end*/
+
+#time-life {
+    width: 100%;
+    height: 690px;
+    background-image: url("../images/time-life.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-family: "微软雅黑";
+
+    position: relative;
+}
+
+.mask {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.2;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.enjoy-life {
+    position: absolute;
+    left: 125px;
+    bottom: 205px;
+    z-index: 5;
+}
+
+.enjoy-life h1 {
+    font-size: 60px;
+    font-weight: normal;
+}
+
+.enjoy-life p {
+    font-size: 21px;
+    line-height: 37px;
+}
+
+.btn {
+    display: block;
+    width: 330px;
+    height: 65px;
+    background-color: red;
+    margin-top: 57px;
+    font-size: 30px;
+    line-height: 65px;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+}
+
+#intro {
+    width: 100%;
+    height: 250px;
+
+    display: table;
+}
+
+#intro p {
+    display: table-cell;
+    margin: 0;
+    vertical-align: middle;
+    text-align: center;
+}
+#intro p img {
+    margin-bottom: 48px;
+}
+
+/*abou-world*/
+#about-world {
+    width: 100%;
+    height: 360px;
+    background-color: rgb(237, 237, 237);
+    text-align: center;
+}
+
+#about-world img {
+    width: 90px;
+    height: 90px;
+    margin-top: 90px;
+}
+
+#about-world p {
+    font-size: 53.6px;
+    line-height: 53.6px;
+    font-family: "黑体";
+    color: rgb(160,160,160);
+    margin-top: 50px;
+}
+/*about-world end*/
+
+#look-up {
+    width: 100%;
+    height: 340px;
+    background-image: url("../images/look-up.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    border: 1px solid transparent;
+    font-family: "黑体";
+
+    position: relative;
+}
+
+.over-mask {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 5;
+}
+
+#look-up h3 {
+    font-size: 21px;
+    line-height: 41.88px;
+    font-weight: normal;
+    margin-top: 55px;
+}
+
+#look-up p {
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 31px;
+}
+
+#look-up form {
+    width: 1030px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+#look-up form select {
+    width: 235px;
+    height: 40px;
+    margin-top: 35px;
+}
+
+.search {
+    display: inline-block;
+    width: 235px;
+    height: 40px;
+    background-color: red;
+    font-size: 20px;
+    line-height: 40px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 15px; 
+}
+
+/*shanghai activety start*/
+#shanghai {
+    width: 990px;
+    margin: 100px auto 115px;
+    text-align: center;
+    font-family: "微软雅黑";
+    overflow: hidden;
+}
+
+#shanghai > li {
+    width: 220px;
+    float: left;
+    list-style: none;
+}
+
+#shanghai > li + li {
+    margin-left: 35px;
+}
+
+.normal h4,
+.special h4 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.normal h4 {
+    margin-top: 15px;
+}
+
+.special h4 {
+    letter-spacing: 25px;
+}
+
+.normal p,
+.special p {
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight: 300;
+    opacity: 0.7;
+}
+
+
+#shanghai > li > img {
+    width: 205px;
+    height: 315px;
+    padding: 10px 5px;
+    box-shadow: 0 0 5px #ccc;
+}
+/*shanghai end*/
+
+#new-world-age {
+    width: 100%;
+    height: 1085px;
+    clear: both;
+}
+
+.new-world,
+.new-age {
+    width: 100%;
+
+    position: relative;
+}
+
+.new-world {
+    height: 565px;
+}
+
+.new-age {
+    height: 520px;
+}
+
+.new-world-left,
+.new-world-right {
+    height: 565px
+}
+
+.new-world-left {
+    width: 66.666%;
+    background-image: url("../images/new-world.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.new-world-right {
+
+}
+
+.new-age-item {
+    width: 33.333%;
+    height: 520px;
+
+    float: left;
+}
+
+.new-age-left {
+    background-color: red;
+}
+
+.new-age-center {
+    background-color: #fff;
+}
+
+.new-age-right {
+    background-image: url("../images/new-age.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
