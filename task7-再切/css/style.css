@@ -226,7 +226,6 @@
     vertical-align: middle;
     text-decoration: none;
     color: #fff;
-    letter-spacing: 15px; 
 }
 
 /*shanghai activety start*/
@@ -302,7 +301,8 @@
 
 .new-world-left,
 .new-world-right {
-    height: 565px
+    height: 565px;
+    float: left;
 }
 
 .new-world-left {
@@ -313,7 +313,92 @@
 }
 
 .new-world-right {
+    width: 33.333%;
+    font-size: 12px;
+    line-height: 30px;
+    font-family: "微软雅黑";
+    color: rgb(170, 170, 170);
+}
 
+.new-world-right h3 {
+    font-size: 21px;
+    line-height: 30px;
+    color: #000;
+    text-align: center;
+    margin: 135px auto 30px;
+}
+
+.zero1 {
+    color: red;
+}
+
+.new-world-right p
+ {
+    width: 24em;
+    margin: 0 auto;
+}
+
+.more-specific {
+    display: block;
+    width: 105px;
+    height: 33px;
+    font-size: 16px;
+    line-height: 33px;
+    text-align: center;
+    color: red;
+    border: 1px solid red;
+    margin: 40px auto 33px;
+    text-decoration: none;
+}
+
+.dots {
+    width: 65px;
+    height: 10px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.dots li {
+    list-style: none;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px #ccc;
+
+    float: left;
+}
+
+.dots li:first-child {
+    background-color: #ccc;
+}
+
+.dots li + li {
+    margin-left: 17.5px;
+}
+
+.love-life {
+    font-size: 18px;
+    line-height: 1.2888;
+    color: #fff;
+    font-weight: normal;
+    width: 165px;
+    height: 50px;
+    margin: 175px auto 0;
+    text-align: center;
+}
+
+.love-redbg {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.love-life + .more-specific {
+    width: 165px;
+}
+
+.love-life-right {
+    color: red;
 }
 
 .new-age-item {
@@ -329,6 +414,22 @@
 
 .new-age-center {
     background-color: #fff;
+
+    position: relative;
+}
+
+.new-age-arrow {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 25px solid #fff;
+    border-right: none;
+
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    margin-top: -15px;
 }
 
 .new-age-right {
@@ -337,9 +438,184 @@
     background-size: cover;
 }
 
+/*volunteer start*/
+#volunteer {
+    width: 1000px;
+    margin: 118px auto 165px;
+    text-align: center;
+    overflow: hidden;
+}
 
+.bec-vol {
+    margin-bottom: 30px;
+}
 
+.vol-bottom {
+    margin-top: 110px;
+    overflow: hidden;
+}
 
+.vol-left {
+    width: 290px;
+    height: 285px;
+    text-align: left;
+    font-size: 12px;
+    font-family: "微软雅黑";
 
+    float: left;
+}
 
+.vol-left a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-family: "宋体";
+    line-height: 14px;
+    vertical-align: middle;
+}
 
+.case h4 {
+    font-size: 14px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.more {
+    text-align: right;
+    margin-top: 5px;
+}
+
+.vol-form {
+    width: 640px;
+    height: 290px;
+    font-size: 12px;
+    font-family: "微软雅黑";
+
+    float: right;
+}
+
+.vol-form input {
+    width: 293px;
+    height: 35px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    font-family: "微软雅黑";
+    background-color: rgb(237, 237, 237);
+    border-radius: 3px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .75);
+    border: none;
+}
+
+.input-right {
+    margin-left: 20px;
+}
+
+.vol-form textarea {
+    display: block;
+    width: 640px;
+    height: 125px;
+    background-color: rgb(237, 237, 237);
+    font-family: "微软雅黑";
+    padding-left: 15px;
+    border-radius: 3px;
+}
+
+.vol-form input[type='submit'] {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.more span {
+    display: inline-block;
+    transform: rotate(90deg);
+}
+
+#contact-us {
+    width: 100%;
+    height: 360px;
+    background-color: rgb(50, 53, 60);
+    color: #fff;
+    font-family: "微软雅黑";
+    text-align: center;
+    border-top: 1px solid transparent;
+    margin-top: -1px; 
+
+    position: relative;
+}
+
+#contact-us h3 {
+    margin-top: 90px;
+    font-size: 21px;
+    line-height: 41.8px;
+    font-weight: normal;
+}
+
+#contact-us p {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.email {
+    width: 510px;
+    height: 40px;
+    margin: 30px auto 35px;
+}
+
+#contact-us a {
+    text-decoration: none;
+}
+
+.email input:last-child {
+    box-sizing: border-box;
+    width: 80px;
+    background-color: rgb(114, 114, 120);
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: #fff;
+    cursor: pointer;
+}
+
+.email input {
+    height: 40px;
+    border: none;
+    float: left;
+}
+
+.email input:first-child {
+    width: 390px;
+    padding-left: 15px;
+}
+
+.con-img {
+    margin-left: 28px;
+}
+
+#footer {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(47, 48, 57);
+    color: #fff;
+    font-size: 12px;
+
+    position: relative;
+}
+
+#footer p {
+    position: absolute;
+    bottom: 15px;
+}
+
+.footer-left {
+    left: 100px;
+}
+
+.footer-right {
+    right: 100px;
+}
+
+.footer-right a {
+    text-decoration: none;
+    color: #fff;
+}
